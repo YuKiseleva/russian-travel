@@ -2,8 +2,14 @@
 .photo-grid{
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
-grid-gap: 2vw;
-max-width: 90%;
-margin-left: 5%;
+grid-gap: 14px;
+max-width: calc(100% * 0.95);
 padding-bottom: 0px;
+margin-left: calc((100% - (100% * 0.95))/2);
+}
+
+@media (min-width: 1280px) {
+  .photo-grid{  
+    grid-template-columns: repeat(4, 1fr);
+}
 }

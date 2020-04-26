@@ -1,9 +1,8 @@
 .place__url{
-max-height: 22px;
 margin-left: 0px;
 margin-bottom: 0px;
 padding-bottom: 0px;
-font-family: Inter;
+font-family: 'Inter', Arial, sans-serif; 
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -14,5 +13,5 @@ transition: opacity 1s ease ;
 }
         
 .place__url:hover{
- opacity: 0.6;
+ opacity: 0.8;
 }

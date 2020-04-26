@@ -1,6 +1,6 @@
 .footer__copyright{
-margin-right: 5%;
-font-family: Inter;
+margin-right: calc(1280px * 0.05);
+font-family: 'Inter', Arial, sans-serif; 
 font-style: normal;
 font-weight: normal;
 font-size: 14px;

@@ -1,13 +1,12 @@
-@import url(_ru/header__lang_ru.css);
-@import url(_en/header__lang_en.css);
+@import url(_selected/header__lang_selected.css);
+@import url(_unselected/header__lang_unselected.css);
 
 .header__lang{
-    font-family: Inter;
+    font-family: 'Inter', Arial, sans-serif; 
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
-    text-decoration: none;
     color: #FFFFFF;
     }
 @media all and (min-width: 320px) and (max-width: 767px){

@@ -1,0 +1,10 @@
+.header__lang_selected{
+    grid-column-start: 3;
+    justify-self: start;
+    align-self: end;
+    text-decoration: underline;
+    transition: opacity 1s ease ;
+}
+.header__lang_selected:hover{
+    opacity: 0.8;
+}

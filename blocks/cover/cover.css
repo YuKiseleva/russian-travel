@@ -7,7 +7,8 @@
     display: flex;
     background-image: url(../../images/cover_baykal.jpg);
     background-size: cover;
-    width: 90%;
+    background-position: center;
+    width: calc(1280px * 0.9);
     height: 740px;
     margin-top: 12px;
     margin-bottom: 92px;
@@ -19,6 +20,8 @@
     position: relative;
   
 }
+
+
 
 @media all and (min-width: 320px) and (max-width: 767px){
   .cover{
