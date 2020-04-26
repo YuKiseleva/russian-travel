@@ -1,0 +1,18 @@
+.place__url{
+max-height: 22px;
+margin-left: 0px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+color: #FFFFFF;
+transition: opacity 1s ease ;
+}
+        
+.place__url:hover{
+ opacity: 0.6;
+}

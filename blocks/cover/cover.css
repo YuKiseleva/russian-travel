@@ -1,0 +1,44 @@
+@import url(__title/cover__title.css);
+@import url(__subtitle/cover__subtitle.css);
+@import url(__overlay/cover__overlay.css);
+
+
+.cover{
+    display: flex;
+    background-image: url(../../images/cover_baykal.jpg);
+    background-size: cover;
+    width: 90%;
+    height: 740px;
+    margin-top: 12px;
+    margin-bottom: 92px;
+    flex-direction: column;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 0%;
+    position: relative;
+  
+}
+
+@media all and (min-width: 320px) and (max-width: 767px){
+  .cover{
+    width: 100%;
+    height: 200px;
+    margin-top: 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .cover{
+        width: 100%;
+        height: 480px;
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .cover{
+        width: 100%;
+        height: 640px;
+        margin-top: 0px;
+    }
+}

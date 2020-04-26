@@ -1,0 +1,33 @@
+.place__title{
+grid-area: title;
+font-family: Inter;
+max-width: 90%;
+font-style: normal;
+font-size: 72px;
+line-height: 76px;
+color: #FFFFFF;
+justify-self: start;
+padding-bottom: 0px;
+white-space: pre-line;
+margin-bottom: 0px;
+margin-top: 0px;
+}
+
+@media all and (min-width: 320px) and (max-width: 767px){
+    .place__title{
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+        white-space: normal;
+        justify-self: center;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .place__title{
+        font-size: 42px;
+        line-height: 46px;
+        white-space: normal;
+    }
+
+}
