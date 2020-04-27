@@ -1,8 +1,32 @@
 @import url(__logo/header__logo.css);
+@import url(__languages/header__languages.css);
 @import url(__lang/header__lang.css);
+@import url(__lang/_selected/header__lang_selected.css);
 .header{
-width: 100%;
 display: grid;
-grid-template-columns: calc(10% + 176px) 1fr 30px calc(30px + 10%);
-grid-column-gap: 18px;
+grid-template-columns: 176px 1fr 78px;
+margin-right: 48px;
+margin-left: 48px;
+}
+@media (min-width: 1280px){
+    .header{
+      margin-right: calc(((100% - 1280px) / 2) + 48px);
+      margin-left: calc(((100% - 1280px) / 2) + 48px);
+    }
+    
+    }
+@media (min-width: 320px) and (max-width: 767px){
+        .header{
+            grid-template-columns: 142px 1fr calc(22px + 22px + 18px);
+            margin-right: 16px;
+            margin-left: 16px;
+        }
+        
+        }
+ @media (min-width: 768px) and (max-width: 1023px){
+    .header{
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+            
 }

@@ -1,16 +1,9 @@
 .footer__menu{
     margin-left: 0px;
-    margin-left: calc(1280px * 0.05);
-    align-content: center;
+    margin-bottom: 24px;
 }
-@media all and (min-width: 320px) and (max-width: 767px){
+@media (min-width: 320px) and (max-width: 767px){
   .footer__menu{
-    align-content: start;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 90%;
-    align-self: start;
-    margin-left: 5%;
+    margin-bottom: 16px;
   }
 }

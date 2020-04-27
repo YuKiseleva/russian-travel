@@ -2,17 +2,32 @@
 @import url(__link/footer__link.css);
 @import url(__copyright/footer__copyright.css);
 @import url(__links/footer__links.css);
+@import url(__option/footer__option.css);
 .footer{
 display: flex;
 flex-direction: row;
 align-content: center;
 justify-content: space-between;
-padding-bottom: 24px;
+margin-left: 48px;
+margin-right: 48px;
 }
 
-@media all and (min-width: 320px) and (max-width: 767px){
+@media (min-width: 320px) and (max-width: 767px){
  .footer{
     flex-direction: column;
+    margin-left: 16px;
+    margin-right: 118px;
  }
 
 }
+@media (min-width: 1280px){
+   .footer{
+       margin-right: calc(((100% - 1280px) / 2) + 48px);
+       margin-left: calc(((100% - 1280px) / 2) + 48px);
+   }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+   .footer{
+      margin-left: 24px;
+      margin-right: 24px;
+   }
