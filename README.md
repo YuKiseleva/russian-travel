@@ -19,3 +19,5 @@
 
 Работа на закрепление навыков адаптивной верстки.
 * [Cсылка на проект](https://yukiseleva.github.io/russian-travel/index.html)
+* [Cсылка на GitHub](https://github.com/YuKiseleva/russian-travel)
+
