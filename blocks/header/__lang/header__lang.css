@@ -9,7 +9,7 @@
     transition: opacity 1s ease ;
     text-decoration: none;
 }
-.header__lang_selected:hover{
+.header__lang:hover{
     opacity: 0.8;
 }
 
